@@ -67,6 +67,7 @@ let SlickSlider = Ember.Component.extend({
       cssEase          : this.get('cssEase'),
       customPaging     : this.get('customPaging'),
       dots             : this.get('dots'),
+      dotsClass        : this.get('dotsClass'),
       draggable        : this.get('draggable'),
       fade             : this.get('fade'),
       focusOnSelect    : this.get('focusOnSelect'),
