@@ -1,7 +1,7 @@
 import Ember from 'ember';
 import layout from '../templates/components/slick-slider';
 
-export default Ember.Component.extend({
+let SlickSlider = Ember.Component.extend({
   layout: layout,
   accessibility: true,
   adaptiveHeight: true,
@@ -116,3 +116,6 @@ export default Ember.Component.extend({
     });
   })
 });
+
+SlickSlider[Ember.NAME_KEY] = "slick slider";
+export default SlickSlider;
